@@ -1,0 +1,216 @@
+{
+    "status": 200,
+    "headers": {},
+    "body": {
+        "headers": {
+            "host": "enkfxke8u3bijcp.m.pipedream.net",
+            "x-amzn-trace-id": "Root=1-60c1a09b-094df34031041079480cb7af",
+            "content-length": "3824",
+            "accept": "application/json",
+            "user-agent": "CyberbizWebhook/1.0",
+            "content-type": "application/json",
+            "x-cyberbiz-event": "orders/create",
+            "x-cyberbiz-domain": "raceon.cyberbiz.co",
+            "x-cyberbiz-hmac-sha256": "8absRWrFtSaOWY1AFvw1wmaaplnEZziiQag3BNQ7Gb0=",
+            "accept-encoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3"
+        },
+        "body": {
+            "created_at": "2021-06-10 13:18:17",
+            "updated_at": "2021-06-10 13:18:18",
+            "order_number": 6777,
+            "order_name": "#6777",
+            "customer": {
+                "name": "李銘文",
+                "status": "enabled",
+                "email": "gogoed3@gmail.com",
+                "mobile": "0975812613",
+                "enable_cvs_pickup": true,
+                "accepts_marketing": true,
+                "tags": [],
+                "address": {
+                    "company": null,
+                    "phone": "0975812613",
+                    "address": "台中市 大肚區 興和路285巷6之14號",
+                    "detail_address": {
+                        "zip": "432",
+                        "country": null,
+                        "province": "",
+                        "city": "台中市",
+                        "district": "大肚區",
+                        "address1": "興和路285巷6之14號",
+                        "address2": null
+                    }
+                },
+                "gender": null,
+                "birthday": null,
+                "other_accumulated_consumption": 0,
+                "other_accumulated_consumption_expired_at": null,
+                "note": null,
+                "custom_fields": [],
+                "created_at": "2021-05-13 17:02:50",
+                "updated_at": "2021-06-10 13:14:31",
+                "confirmed_at": "2021-05-13 17:02:50",
+                "mobile_sms_confirmed_at": "2021-05-13 17:02:50",
+                "id": 10018142
+            },
+            "buyer": {
+                "email": "gogoed3@gmail.com"
+            },
+            "receiver": {
+                "name": "李銘文",
+                "phone": "0975812613",
+                "address": "432  台中市大肚區興和路285巷6之14號",
+                "detail_address": {
+                    "zip": "432",
+                    "country": null,
+                    "province": "",
+                    "city": "台中市",
+                    "district": "大肚區",
+                    "address1": "興和路285巷6之14號",
+                    "address2": null
+                },
+                "cvs_store_id": null,
+                "allpay_logistics_id": null
+            },
+            "line_items": [{
+                "id": 20309746,
+                "product_id": 32142722,
+                "product_variant_id": 34597305,
+                "title": "雙螯合 固鎂鈣",
+                "variant_title": "",
+                "sku": "FG8265060BB00",
+                "qc": "FG8265060BB00",
+                "vendor": null,
+                "price": 850,
+                "cost": null,
+                "quantity": 2,
+                "item_type": "normal",
+                "discount_name": "雙螯合固鎂鈣 組合優惠",
+                "discounts": [{
+                    "position": 0,
+                    "id": 1,
+                    "code": "special_collection_discount",
+                    "name": "任選折扣",
+                    "discount": 55
+                }, {
+                    "position": 0,
+                    "id": 5,
+                    "code": "bonus_discount",
+                    "name": "紅利折扣",
+                    "discount": 14
+                }, {
+                    "position": 1,
+                    "id": 1,
+                    "code": "special_collection_discount",
+                    "name": "任選折扣",
+                    "discount": 55
+                }, {
+                    "position": 1,
+                    "id": 5,
+                    "code": "bonus_discount",
+                    "name": "紅利折扣",
+                    "discount": 14
+                }],
+                "total_price_before_discounts": 1700,
+                "total_discount": 138,
+                "total_price_after_discounts": 1562
+            }, {
+                "id": 20309747,
+                "product_id": 30123049,
+                "product_variant_id": 31962316,
+                "title": "【寶齡富錦】寶益他命 特小顆B群（60顆/盒）",
+                "variant_title": "60顆/盒",
+                "sku": "FG8230060BB00",
+                "qc": null,
+                "vendor": null,
+                "price": 0,
+                "cost": null,
+                "quantity": 1,
+                "item_type": "gift",
+                "discount_name": "",
+                "discounts": [],
+                "total_price_before_discounts": 0,
+                "total_discount": 0,
+                "total_price_after_discounts": 0
+            }],
+            "shipping_type": "pelican",
+            "shipping_name": "本島宅配(宅配通)",
+            "logistics_id": null,
+            "delivery_date": "2021-06-10",
+            "delivery_time": 0,
+            "delegate": null,
+            "fulfillments": [],
+            "payment_name": "allpay_aio_credit",
+            "payment_url": "//www.raceon.com.tw/orders/0c89eef0abd901396d8d0aee50863a5c",
+            "multiple_payment_infos": [],
+            "prices": {
+                "total_line_items_price": 1700,
+                "shipping_rate_price": 0,
+                "discounts": {
+                    "special_collection_discount": 110,
+                    "vip_discount": 0,
+                    "shop_discount": null,
+                    "coupon_discount": null,
+                    "bonus_consumed": 28,
+                    "vip_shipping_discount": 0,
+                    "price_discount": 0
+                },
+                "total_price": 1562
+            },
+            "card4no": null,
+            "transaction_number": null,
+            "merchant_trade_no": "S12556O6777R1",
+            "einvoice": {
+                "title": null,
+                "order_id": 9873898,
+                "company_no": null,
+                "invoice_no": null,
+                "invoice_status": null,
+                "invoice_at": null,
+                "invalid_at": null,
+                "random_num": null,
+                "invoice_type": "default",
+                "love_code": null,
+                "phone_barcode": null,
+                "nature_person": null
+            },
+            "statuses": {
+                "order_status": "open",
+                "financial_status": "pending",
+                "fulfillment_status": "unshipped",
+                "return_status": "no_need"
+            },
+            "timings": {
+                "request_return_at": null,
+                "return_at": null,
+                "refund_at": null,
+                "closed_at": null,
+                "cancelled_at": null,
+                "expired_at": null,
+                "confirmed_at": "2021-06-10 13:18:17"
+            },
+            "return_histories": [],
+            "note": "",
+            "branch_store": null,
+            "referral_code": null,
+            "total_bonus_redemption_price": 0,
+            "pos_info": {
+                "pos_user_id": null,
+                "pos_user_email": null,
+                "pos_shop_id": null,
+                "pos_info": ""
+            },
+            "exchange_histories": [],
+            "linked_order_info": {
+                "source": "非導購訂單"
+            },
+            "tags": [],
+            "id": 9873898
+        },
+        "inferred_body_type": "JSON",
+        "method": "POST",
+        "url": "https://enkfxke8u3bijcp.m.pipedream.net/",
+        "client_ip": "52.194.101.168",
+        "query": {}
+    }
+}
