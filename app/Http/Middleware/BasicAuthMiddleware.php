@@ -14,7 +14,7 @@
         * @return mixed
         */
       public function handle($request, Closure $next) {
-          if($request->getUser() != 'admin' || $request->getPassword() != 'pbf04742997') {
+          if($request->getUser() != 'admin' || $request->getPassword() != '') {
               $headers = array('WWW-Authenticate' => 'Basic');
               return response('Unauthorized.', 401, $headers);
           }
